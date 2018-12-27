@@ -48,7 +48,7 @@ end
 function howtoplay_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
-% eventdata  reserved - to be defined in a future version of MATLAB
+% guideeventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 % varargin   command line arguments to howtoplay (see VARARGIN)
 
@@ -58,12 +58,11 @@ handles.output = hObject;
 % create an axes that spans the whole gui
 ah = axes('unit', 'normalized', 'position', [0 0 1 1]); 
 % import the background image and show it on the axes
-bg = imread('howtoplay'); imagesc(bg);
+bg = imread('howtoplay.png'); imagesc(bg);
 % prevent plotting over the background and turn the axis off
 set(ah,'handlevisibility','off','visible','off')
 % making sure the background is behind all the other uicontrols
 uistack(ah, 'bottom');
-
 % Update handles structure
 guidata(hObject, handles);
 
@@ -87,8 +86,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
-
+close (howtoplay)
 % --- Executes during object creation, after setting all properties.
 function axes1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to axes1 (see GCBO)

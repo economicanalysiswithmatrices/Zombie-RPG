@@ -1,26 +1,26 @@
-function varargout = attempt2(varargin)
-% ATTEMPT2 MATLAB code for attempt2.fig
-%      ATTEMPT2, by itself, creates a new ATTEMPT2 or raises the existing
+function varargout = Homescreen(varargin)
+% Homescreen MATLAB code for Homescreen.fig
+%     Homescreen, by itself, creates a new Homescreen or raises the existing
 %      singleton*.
 %
-%      H = ATTEMPT2 returns the handle to a new ATTEMPT2 or the handle to
+%      H = Homescreen returns the handle to a new Homescreen or the handle to
 %      the existing singleton*.
 %
-%      ATTEMPT2('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in ATTEMPT2.M with the given input arguments.
+%      Homescreen('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in Homescreen.M with the given input arguments.
 %
-%      ATTEMPT2('Property','Value',...) creates a new ATTEMPT2 or raises the
+%     Homescreen('Property','Value',...) creates a new Homescreen or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before attempt2_OpeningFcn gets called.  An
+%      applied to the GUI before Homescreen_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to attempt2_OpeningFcn via varargin.
+%      stop.  All inputs are passed to Homescreen_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help attempt2
+% Edit the above text to modify the response to help Homescreen
 
 % Last Modified by GUIDE v2.5 30-Nov-2018 17:06:56
 
@@ -28,8 +28,8 @@ function varargout = attempt2(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @attempt2_OpeningFcn, ...
-                   'gui_OutputFcn',  @attempt2_OutputFcn, ...
+                   'gui_OpeningFcn', @Homescreen_OpeningFcn, ...
+                   'gui_OutputFcn',  @Homescreen_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,15 +44,15 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before attempt2 is made visible.
-function attempt2_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before Homescreen is made visible.
+function Homescreen_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to attempt2 (see VARARGIN)
+% varargin   command line arguments to Homescreen (see VARARGIN)
 
-% Choose default command line output for attempt2
+% Choose default command line output for Homescreen
 handles.output = hObject;
 
 % create an axes that spans the whole gui
@@ -68,12 +68,12 @@ uistack(ah, 'bottom');
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes attempt2 wait for user response (see UIRESUME)
+% UIWAIT makes Homescreen wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = attempt2_OutputFcn(hObject, eventdata, handles) 
+function varargout = Homescreen_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -89,21 +89,22 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
+run Game.m
+
 
 % --- Executes on button press in pushbutton2.
 function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
+run howtoplay.m
 
 % --- Executes on button press in pushbutton3.
 function pushbutton3_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
-
+close all
 % --- Executes during object creation, after setting all properties.
 function axes1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to axes1 (see GCBO)
