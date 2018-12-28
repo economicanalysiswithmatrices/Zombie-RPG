@@ -75,16 +75,16 @@ varargout{1} = handles.output;
 
 % --- Executes on button press in pushbutton3.
 function pushbutton3_Callback(hObject, eventdata, handles)
-set(handles.healthdisplay, 'string', 'Current Health = 110');
+set(handles.healthdisplay, 'string', 'Current Health = 100');
 
-set(handles.text1,'string' , 'stage 2')
+set(handles.text1,'string' , 'stage 2a')
 
 
 % --- Executes on button press in pushbutton4.
 function pushbutton4_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton4 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+set(handles.healthdisplay, 'string', 'Current Health = 100');
+
+set(handles.text1,'string' , 'stage 2b')
 
 
 % --- Executes during object creation, after setting all properties.
