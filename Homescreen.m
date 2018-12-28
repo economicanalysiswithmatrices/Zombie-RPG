@@ -22,7 +22,7 @@ function varargout = Homescreen(varargin)
 
 % Edit the above text to modify the response to help Homescreen
 
-% Last Modified by GUIDE v2.5 30-Nov-2018 17:06:56
+% Last Modified by GUIDE v2.5 28-Dec-2018 14:37:15
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -82,13 +82,15 @@ function varargout = Homescreen_OutputFcn(hObject, eventdata, handles)
 % Get default command line output from handles structure
 varargout{1} = handles.output;
 
-
 % --- Executes on button press in pushbutton1.
 function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-run Game.mg
+run Game.m % runs the game
+close (Homescreen) %closes the Homescreen GUI
+
+
 % --- Executes on button press in pushbutton2.
 function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
@@ -109,6 +111,8 @@ function axes1_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 
 % Hint: place code in OpeningFcn to populate axes1
+
+
 
 
 
