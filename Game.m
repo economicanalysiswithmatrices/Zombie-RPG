@@ -60,7 +60,9 @@ guidata(hObject, handles);
 
 % UIWAIT makes Game wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
-
+[y,fs]=audioread('knocking.wav'); 
+sound(y,fs)
+%plays audio file
 
 set(handles.checkonjoeya,'visible','off');
 set(handles.checkonjoeyb,'visible','off');
@@ -91,7 +93,6 @@ function varargout = Game_OutputFcn(hObject, eventdata, handles)
 % Get default command line output from handles structure
 varargout{1} = handles.output;
 
-
 % --- Executes on button press in starta.
 function starta_Callback(hObject, eventdata, handles)
 set(handles.healthdisplay, 'string', 'Current Health = 100');
@@ -107,6 +108,8 @@ set(handles.checkonjoeyb,'visible','on');
 set(handles.textstart,'visible','off');
 
 set(handles.textcheckonjoey,'visible','on');
+[y,fs]=audioread('rain.wav');
+sound(y,fs)
 
 % Changes textbox to the next scenario, makes the current buttons
 % invisible, makes the new buttons visible
@@ -137,6 +140,9 @@ set(handles.checkonjoeya,'visible','off');
 set(handles.checkonjoeyb,'visible','off');
 set(handles.upstairsa,'visible','on');
 set(handles.upstairsb,'visible','on');
+
+[y,fs]=audioread('stairs.wav');
+sound(y,fs)
 % --- Executes on button press in upstairsb.
 function upstairsb_Callback(hObject, eventdata, handles)
 % hObject    handle to upstairsb (see GCBO)
