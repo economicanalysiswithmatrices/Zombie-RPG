@@ -22,7 +22,7 @@ function varargout = Game(varargin)
 
 % Edit the above text to modify the response to help Game
 
-% Last Modified by GUIDE v2.5 28-Dec-2018 16:53:03
+% Last Modified by GUIDE v2.5 29-Dec-2018 12:18:27
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -62,17 +62,22 @@ guidata(hObject, handles);
 % uiwait(handles.figure1);
 
 
-set(handles.pushbutton2aa,'visible','off');
-set(handles.pushbutton2ab,'visible','off');
-set(handles.pushbutton2ba,'visible','off');
-set(handles.pushbutton2bb,'visible','off');
-set(handles.pushbutton4aab,'visible','off');
-set(handles.pushbutton4aaa,'visible','off');
-set(handles.pushbuttonrestart,'visible','off');
-set(handles.text2a,'visible','off');
-set(handles.text2b,'visible','off');
+set(handles.checkonjoeya,'visible','off');
+set(handles.checkonjoeyb,'visible','off');
+set(handles.backgatea,'visible','off');
+set(handles.backgateb,'visible','off');
+set(handles.upstairsb,'visible','off');
+set(handles.upstairsa,'visible','off');
+set(handles.kitchena,'visible','off');
+set(handles.kitchenb,'visible','off');
 
-set(handles.text3b,'visible','off');
+set(handles.textstore,'visible','off');
+set(handles.restartbutton,'visible','off');
+set(handles.textkitchen,'visible','off');
+set(handles.textcheckonjoey,'visible','off');
+set(handles.textbackgate,'visible','off');
+set(handles.textvet,'visible', 'off');
+set(handles.textupstairs,'visible','off');
 set(handles.text4Death,'visible','off');
 % This sets the pushbuttons and text boxes that are not currently in use, to invisible
 
@@ -87,110 +92,110 @@ function varargout = Game_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
 
 
-% --- Executes on button press in pushbutton1a.
-function pushbutton1a_Callback(hObject, eventdata, handles)
+% --- Executes on button press in starta.
+function starta_Callback(hObject, eventdata, handles)
 set(handles.healthdisplay, 'string', 'Current Health = 100');
 
-set(handles.pushbutton1a,'visible','off');
+set(handles.starta,'visible','off');
 
-set(handles.pushbutton1b,'visible','off');
+set(handles.startb,'visible','off');
 
-set(handles.pushbutton2aa,'visible','on');
+set(handles.checkonjoeya,'visible','on');
 
-set(handles.pushbutton2ab,'visible','on');
+set(handles.checkonjoeyb,'visible','on');
 
-set(handles.text1,'visible','off');
+set(handles.textstart,'visible','off');
 
-set(handles.text2a,'visible','on');
+set(handles.textcheckonjoey,'visible','on');
 
 % Changes textbox to the next scenario, makes the current buttons
 % invisible, makes the new buttons visible
-% --- Executes on button press in pushbutton1b.
-function pushbutton1b_Callback(hObject, eventdata, handles)
+% --- Executes on button press in startb.
+function startb_Callback(hObject, eventdata, handles)
 set(handles.healthdisplay, 'string', 'Current Health = 100');
 
-set(handles.pushbutton1a,'visible','off');
+set(handles.starta,'visible','off');
 
-set(handles.pushbutton1b,'visible','off');
+set(handles.startb,'visible','off');
 
-set(handles.pushbutton2ba,'visible','on');
+set(handles.backgatea,'visible','on');
 
-set(handles.pushbutton2bb,'visible','on');
+set(handles.backgateb,'visible','on');
 
-set(handles.text1,'visible','off');
-set(handles.text2b,'visible','on');
+set(handles.textstart,'visible','off');
+set(handles.textbackgate,'visible','on');
 
-% --- Executes on button press in pushbutton2aa.
-function pushbutton2aa_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2aa (see GCBO)
+% --- Executes on button press in checkonjoeya.
+function checkonjoeya_Callback(hObject, eventdata, handles)
+% hObject    handle to checkonjoeya (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 set(handles.healthdisplay, 'string', 'Current Health = 80')
-set(handles.text2a,'visible','off');
-set(handles.text3b,'visible','on');
-set(handles.pushbutton2aa,'visible','off');
-set(handles.pushbutton2ab,'visible','off');
-set(handles.pushbutton4aaa,'visible','on');
-set(handles.pushbutton4aab,'visible','on');
-% --- Executes on button press in pushbutton4aab.
-function pushbutton4aab_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton4aab (see GCBO)
+set(handles.textcheckonjoey,'visible','off');
+set(handles.textupstairs,'visible','on');
+set(handles.checkonjoeya,'visible','off');
+set(handles.checkonjoeyb,'visible','off');
+set(handles.upstairsa,'visible','on');
+set(handles.upstairsb,'visible','on');
+% --- Executes on button press in upstairsb.
+function upstairsb_Callback(hObject, eventdata, handles)
+% hObject    handle to upstairsb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-set(handles.text3b,'visible','off');
+set(handles.textupstairs,'visible','off');
 set(handles.text4Death,'visible','on');
 set(handles.healthdisplay, 'string', 'Current Health = 0')
-set(handles.pushbutton4aaa,'visible','off');
-set(handles.pushbutton4aab,'visible','off');
-set(handles.pushbuttonrestart,'visible','on');
-% --- Executes on button press in pushbuttonrestart.
-function pushbuttonrestart_Callback(hObject, eventdata, handles)
-set(handles.pushbutton1a,'visible','on');
-set(handles.pushbutton1b,'visible','on');
-set(handles.text1,'visible','on');
-set(handles.pushbuttonreset,'visible','off');
-set(handles.text4Death,'visible','off');
-set(handles.healthdisplay, 'string', 'Current Health = 100')
+set(handles.upstairsa,'visible','off');
+set(handles.upstairsb,'visible','off');
+set(handles.restartbutton,'visible','on');
+% --- Executes on button press in restartbutton.
+function restartbutton_Callback(hObject, eventdata, handles)
+close(Game)
+run Game.m
 
-% --- Executes on button press in pushbutton4aaa.
-function pushbutton4aaa_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton4aaa (see GCBO)
+% --- Executes on button press in upstairsa.
+function upstairsa_Callback(hObject, eventdata, handles)
+% hObject    handle to upstairsa (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton2bb.
-function pushbutton2bb_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2bb (see GCBO)
+% --- Executes on button press in backgateb.
+function backgateb_Callback(hObject, eventdata, handles)
+% hObject    handle to backgateb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-set(handles.text1,'string' , 'stage 3bb')
-
-% --- Executes on button press in pushbutton2ba.
-function pushbutton2ba_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2ba (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-set(handles.text1,'string' , 'stage 3ba')
+set(handles.textstore,'visible','on');
+set(handles.textbackgate,'visible','off');
+set(handles.backgatea,'visible','off');
+set(handles.backgateb,'visible','off');
+set(handles.kitchena,'visible','on');
+set(handles.kitchenb,'visible','on');
 
 
+% --- Executes on button press in backgatea.
+function backgatea_Callback(hObject, eventdata, handles)
+set(handles.textstart,'string' , 'stage 3ba')
+set(handles.textvet,'visible','on');
+set(handles.textbackgate,'visible','off');
+set(handles.backgatea,'visible','off');
+set(handles.backgateb,'visible','off');
+% --- Executes on button press in checkonjoeyb.
+function checkonjoeyb_Callback(hObject, eventdata, handles)
+set(handles.textkitchen,'visible','on');
+set(handles.textcheckonjoey,'visible','off');
+set(handles.checkonjoeya,'visible','off');
+set(handles.checkonjoeyb,'visible','off');
 
-% --- Executes on button press in pushbutton2ab.
-function pushbutton2ab_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2ab (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-set(handles.text1,'string' , 'stage 3ab')
+% --- Executes on button press in kitchena.
+function kitchena_Callback(hObject, eventdata, handles)
+
+
+% --- Executes on button press in kitchenb.
+function kitchenb_Callback(hObject, eventdata, handles)
+
+
 % --- Executes during object creation, after setting all properties.
 function healthdisplay_CreateFcn(hObject, eventdata, handles)
-
-% hObject    handle to healthdisplay (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
-
-
-
-
-
 
 
