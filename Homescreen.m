@@ -131,7 +131,7 @@ playerstrength = 0;
 
 playerstrength = playerstrength + 2;
 close (Homescreen)
-run levela.m
+run levelb.m
 
 % --- Executes on button press in pbmedium.
 function pbmedium_Callback(hObject, eventdata, handles)
@@ -143,7 +143,7 @@ playerstrength = 0;
 
 playerstrength = playerstrength + 1;
 close (Homescreen)
-run levela.m
+run levelb.m
 
 % --- Executes on button press in pbhard.
 function pbhard_Callback(hObject, eventdata, handles)
@@ -154,4 +154,4 @@ global playerstrength
 playerstrength = 0;
 
 close (Homescreen)
-run levela.m
+run levelb.m
