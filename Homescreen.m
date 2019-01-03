@@ -22,7 +22,7 @@ function varargout = Homescreen(varargin)
 
 % Edit the above text to modify the response to help Homescreen
 
-% Last Modified by GUIDE v2.5 28-Dec-2018 14:37:15
+% Last Modified by GUIDE v2.5 30-Dec-2018 17:00:35
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -64,6 +64,10 @@ set(ah,'handlevisibility','off','visible','off')
 % making sure the background is behind all the other uicontrols
 uistack(ah, 'bottom');
 
+set(handles.pbeasy,'visible','off');
+set(handles.pbmedium,'visible','off');
+set(handles.pbhard,'visible','off');
+
 
 % Update handles structure
 guidata(hObject, handles);
@@ -87,10 +91,13 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-run Game.m % runs the game
-close (Homescreen) %closes the Homescreen GUI
+set(handles.pbeasy,'visible','on');
+set(handles.pbmedium,'visible','on');
+set(handles.pbhard,'visible','on');
 
-
+set(handles.pushbutton1,'visible','off');
+set(handles.pushbutton2,'visible','off');
+set(handles.pushbutton3,'visible','off');
 
 % --- Executes on button press in pushbutton2.
 function pushbutton2_Callback(hObject, eventdata, handles)
@@ -114,7 +121,37 @@ function axes1_CreateFcn(hObject, eventdata, handles)
 % Hint: place code in OpeningFcn to populate axes1
 
 
+% --- Executes on button press in pbeasy.
+function pbeasy_Callback(hObject, eventdata, handles)
+% hObject    handle to pbeasy (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+global playerstrength 
+playerstrength = 0;
 
+playerstrength = playerstrength + 2;
+close (Homescreen)
+run levela.m
 
+% --- Executes on button press in pbmedium.
+function pbmedium_Callback(hObject, eventdata, handles)
+% hObject    handle to pbmedium (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+global playerstrength 
+playerstrength = 0;
 
+playerstrength = playerstrength + 1;
+close (Homescreen)
+run levela.m
 
+% --- Executes on button press in pbhard.
+function pbhard_Callback(hObject, eventdata, handles)
+% hObject    handle to pbhard (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+global playerstrength 
+playerstrength = 0;
+
+close (Homescreen)
+run levela.m
