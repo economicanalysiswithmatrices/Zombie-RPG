@@ -52,6 +52,8 @@ function Game_OpeningFcn(hObject, eventdata, handles, varargin)
 % handles    structure with handles and user data (see GUIDATA)
 % varargin   command line arguments to Game (see VARARGIN)
 
+
+
 % Choose default command line output for Game
 handles.output = hObject;
 
