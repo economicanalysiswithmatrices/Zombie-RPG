@@ -162,6 +162,8 @@ global playerstrength
 zombiehealth = zombiehealth + 20
 set(handles.ab,'visible','off');
 set(handles.aa,'visible','off')
+set(handles.texta, 'visible', 'off');
+set(handles.textg, 'visible', 'on');
 set(handles.incorrectchoice, 'visible', 'on')
 set(handles.yourattack,'visible','on');
 set(handles.zombieattack,'visible','on');
