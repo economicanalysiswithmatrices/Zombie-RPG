@@ -22,7 +22,7 @@ function varargout = Homescreen(varargin)
 
 % Edit the above text to modify the response to help Homescreen
 
-% Last Modified by GUIDE v2.5 30-Dec-2018 17:00:35
+% Last Modified by GUIDE v2.5 08-Jan-2019 17:08:37
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -129,7 +129,7 @@ function pbeasy_Callback(hObject, eventdata, handles)
 global playerstrength 
 playerstrength = 0;
 
-playerstrength = playerstrength + 2;
+playerstrength = playerstrength + 1;
 close (Homescreen)
 run levelb.m
 
@@ -141,7 +141,7 @@ function pbmedium_Callback(hObject, eventdata, handles)
 global playerstrength 
 playerstrength = 0;
 
-playerstrength = playerstrength + 1;
+playerstrength = playerstrength + 0;
 close (Homescreen)
 run levelb.m
 
@@ -151,7 +151,9 @@ function pbhard_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 global playerstrength 
-playerstrength = 0;
+playerstrength = 0
+
+playerstrength = playerstrength -1
 
 close (Homescreen)
 run levelb.m
