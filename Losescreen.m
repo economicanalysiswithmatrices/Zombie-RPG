@@ -55,6 +55,9 @@ function Losescreen_OpeningFcn(hObject, eventdata, handles, varargin)
 % Choose default command line output for Losescreen
 handles.output = hObject;
 
+[y, Fs] = audioread('Losescreen.mp3');
+sound(y, Fs);
+
 % create an axes that spans the whole gui
 ah = axes('unit', 'normalized', 'position', [0 0 1 1]); 
 % import the background image and show it on the axes
@@ -89,6 +92,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound
 close (Losescreen)
 
 run Homescreen.m
@@ -98,4 +102,5 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound
 close all

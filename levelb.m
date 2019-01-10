@@ -147,9 +147,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -196,9 +198,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -248,9 +252,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -300,9 +306,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -352,9 +360,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -404,9 +414,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run Losescreen.m
 end
@@ -456,9 +468,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -507,9 +521,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -559,9 +575,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -611,9 +629,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -663,9 +683,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -675,6 +697,7 @@ function fb_Callback(hObject, eventdata, handles)
 % hObject    handle to fb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound
 close(levelb)
 run Winscreen2.m
 
@@ -724,9 +747,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -777,9 +802,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -830,9 +857,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -883,9 +912,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -936,9 +967,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -989,9 +1022,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1042,9 +1077,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1095,9 +1132,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1108,6 +1147,7 @@ function aea_Callback(hObject, eventdata, handles)
 % hObject    handle to aea (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
 run Losescreen.m
 
@@ -1156,9 +1196,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1209,9 +1251,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1261,9 +1305,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1312,9 +1358,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1365,9 +1413,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1417,9 +1467,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1470,9 +1522,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1522,9 +1576,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1574,9 +1630,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1627,9 +1685,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1640,8 +1700,8 @@ function aga_Callback(hObject, eventdata, handles)
 % hObject    handle to aga (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
-
 run Losescreen.m
 
 % --- Executes on button press in ja.
@@ -1689,9 +1749,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1742,6 +1804,7 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
@@ -1795,9 +1858,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1848,9 +1913,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1901,9 +1968,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -1954,9 +2023,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2007,9 +2078,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2059,9 +2132,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2112,9 +2187,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2125,8 +2202,8 @@ function aia_Callback(hObject, eventdata, handles)
 % hObject    handle to aia (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
-
 run Losescreen.m
 
 % --- Executes on button press in la.
@@ -2134,6 +2211,7 @@ function la_Callback(hObject, eventdata, handles)
 % hObject    handle to la (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound
 close (levelb)
 run Winscreen2.m
 
@@ -2182,9 +2260,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2196,6 +2276,7 @@ function xa_Callback(hObject, eventdata, handles)
 % hObject    handle to xa (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
 
 run Winscreen2.m
@@ -2245,9 +2326,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2259,6 +2342,7 @@ function aja_Callback(hObject, eventdata, handles)
 % hObject    handle to aja (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
 
 run Losescreen.m
@@ -2308,9 +2392,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2360,9 +2446,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2412,9 +2500,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2463,9 +2553,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2475,6 +2567,7 @@ function afb_Callback(hObject, eventdata, handles)
 % hObject    handle to afb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close(levelb)
 run Losescreen.m
 
@@ -2523,9 +2616,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2575,9 +2670,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2629,9 +2726,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2683,9 +2782,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2737,9 +2838,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2751,8 +2854,8 @@ function ahb_Callback(hObject, eventdata, handles)
 % hObject    handle to ahb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
-
 run Losescreen.m
 
 % --- Executes on button press in abb.
@@ -2800,9 +2903,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2853,9 +2958,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2906,9 +3013,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -2958,9 +3067,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3010,9 +3121,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
 
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3062,9 +3175,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3115,9 +3230,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3169,9 +3286,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3222,9 +3341,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3236,6 +3357,7 @@ function ajb_Callback(hObject, eventdata, handles)
 % hObject    handle to ajb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
 
 run Losescreen.m
@@ -3245,6 +3367,7 @@ function adb_Callback(hObject, eventdata, handles)
 % hObject    handle to adb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
 
 run Winscreen2.m
@@ -3294,9 +3417,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end
@@ -3307,6 +3432,7 @@ function rb_Callback(hObject, eventdata, handles)
 % hObject    handle to rb (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound;
 close (levelb)
 run Winscreen2.m
 
@@ -3355,9 +3481,11 @@ set(handles.zombiehealthtag, 'String', zombiehealth);
 set(handles.playerhealthtag, 'String', playerhealth);
  
 if zombiehealth == 0
+    clear sound
   close(levelb)
   run Winscreen2.m
 elseif playerhealth ==0
+    clear sound
     close(levelb)
     run losescreen.m
 end

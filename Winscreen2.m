@@ -55,6 +55,9 @@ function Winscreen2_OpeningFcn(hObject, eventdata, handles, varargin)
 % Choose default command line output for Winscreen2
 handles.output = hObject;
 
+[y, Fs] = audioread('Winscreen.mp3');
+sound(y, Fs);
+
 
 % create an axes that spans the whole gui
 ah = axes('unit', 'normalized', 'position', [0 0 1 1]); 
@@ -90,6 +93,7 @@ function quit_Callback(hObject, eventdata, handles)
 % hObject    handle to quit (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound
 close all
 
 % --- Executes on button press in startagain.
@@ -98,5 +102,6 @@ function startagain_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 close (Winscreen2)
+clear sound
 
 run Homescreen.m

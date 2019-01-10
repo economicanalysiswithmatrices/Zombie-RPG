@@ -22,7 +22,7 @@ function varargout = Homescreen(varargin)
 
 % Edit the above text to modify the response to help Homescreen
 
-% Last Modified by GUIDE v2.5 09-Jan-2019 17:43:53
+% Last Modified by GUIDE v2.5 08-Jan-2019 17:08:37
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -54,6 +54,9 @@ function Homescreen_OpeningFcn(hObject, eventdata, handles, varargin)
 
 % Choose default command line output for Homescreen
 handles.output = hObject;
+
+[y, Fs] = audioread('Homescreen.mp3');
+sound(y, Fs);
 
 % create an axes that spans the whole gui
 ah = axes('unit', 'normalized', 'position', [0 0 1 1]); 
@@ -99,6 +102,7 @@ set(handles.pushbutton1,'visible','off');
 set(handles.pushbutton2,'visible','off');
 set(handles.pushbutton3,'visible','off');
 
+
 % --- Executes on button press in pushbutton2.
 function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
@@ -111,6 +115,7 @@ function pushbutton3_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+clear sound
 close all
 % --- Executes during object creation, after setting all properties.
 function axes1_CreateFcn(hObject, eventdata, handles)
@@ -130,6 +135,7 @@ global playerstrength
 playerstrength = 0;
 
 playerstrength = playerstrength + 1;
+clear sound
 close (Homescreen)
 run levelb.m
 
@@ -142,6 +148,7 @@ global playerstrength
 playerstrength = 0;
 
 playerstrength = playerstrength + 0;
+clear sound
 close (Homescreen)
 run levelb.m
 
@@ -151,8 +158,10 @@ function pbhard_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 global playerstrength 
-playerstrength = 0;
+playerstrength = 0
 
 playerstrength = playerstrength -1
+clear sound
+
 close (Homescreen)
 run levelb.m
