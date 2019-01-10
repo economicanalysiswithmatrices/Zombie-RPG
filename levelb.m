@@ -52,6 +52,9 @@ function Level2_OpeningFcn(hObject, eventdata, handles, varargin)
 % handles    structure with handles and user data (see GUIDATA)
 % varargin   command line arguments to Level2 (see VARARGIN)
 
+[y, Fs] = audioread('Crusade.mp3');
+sound(y, Fs);
+
 % Choose default command line output for Level2
 handles.output = hObject;
 
