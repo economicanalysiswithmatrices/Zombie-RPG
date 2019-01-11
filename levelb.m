@@ -113,7 +113,7 @@ function aa_Callback(hObject, eventdata, handles)
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aa,'visible','off');
 set(handles.ab,'visible','off')
 set(handles.texta, 'visible', 'off');
@@ -133,11 +133,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -164,7 +164,7 @@ function ab_Callback(hObject, eventdata, handles)
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ab,'visible','off');
 set(handles.aa,'visible','off')
 set(handles.texta, 'visible', 'off');
@@ -184,11 +184,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -218,7 +218,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ba,'visible','off');
 set(handles.bb,'visible','off')
 set(handles.textb, 'visible', 'off');
@@ -238,11 +238,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -272,7 +272,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ba,'visible','off');
 set(handles.bb,'visible','off')
 set(handles.textb, 'visible', 'off');
@@ -292,11 +292,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -326,7 +326,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ca,'visible','off');
 set(handles.cb,'visible','off')
 set(handles.textc, 'visible', 'off');
@@ -346,11 +346,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -380,7 +380,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ca,'visible','off');
 set(handles.cb,'visible','off')
 set(handles.textc, 'visible', 'off');
@@ -400,11 +400,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -434,7 +434,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.da,'visible','off');
 set(handles.db,'visible','off')
 set(handles.textd, 'visible', 'off');
@@ -454,11 +454,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -487,7 +487,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ea,'visible','off');
 set(handles.eb,'visible','off')
 set(handles.texte, 'visible', 'off');
@@ -507,11 +507,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -541,7 +541,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.fa,'visible','off');
 set(handles.fb,'visible','off')
 set(handles.textf, 'visible', 'off');
@@ -561,11 +561,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -595,7 +595,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.db,'visible','off');
 set(handles.da,'visible','off')
 set(handles.textd, 'visible', 'off');
@@ -615,11 +615,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -649,7 +649,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ea,'visible','off');
 set(handles.eb,'visible','off')
 set(handles.texte, 'visible', 'off');
@@ -669,11 +669,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -713,7 +713,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ga,'visible','off');
 set(handles.gb,'visible','off')
 set(handles.textg, 'visible', 'off');
@@ -733,11 +733,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -768,7 +768,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ma,'visible','off');
 set(handles.mb,'visible','off')
 set(handles.textm, 'visible', 'off');
@@ -788,11 +788,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -823,7 +823,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth +20
+playerhealth = playerhealth + 30
 set(handles.sa,'visible','off');
 set(handles.sb,'visible','off')
 set(handles.texts, 'visible', 'off');
@@ -843,11 +843,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -878,7 +878,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ya,'visible','off');
 set(handles.yb,'visible','off')
 set(handles.texty, 'visible', 'off');
@@ -898,11 +898,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -933,7 +933,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ma,'visible','off');
 set(handles.mb,'visible','off')
 set(handles.textm, 'visible', 'off');
@@ -953,11 +953,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -988,7 +988,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.sa,'visible','off');
 set(handles.sb,'visible','off')
 set(handles.texts, 'visible', 'off');
@@ -1008,11 +1008,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1043,7 +1043,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ya,'visible','off');
 set(handles.yb,'visible','off')
 set(handles.texty, 'visible', 'off');
@@ -1063,11 +1063,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1098,7 +1098,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ga,'visible','off');
 set(handles.gb,'visible','off')
 set(handles.textg, 'visible', 'off');
@@ -1118,11 +1118,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1162,7 +1162,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aea,'visible','off');
 set(handles.aeb,'visible','off')
 set(handles.textae, 'visible', 'off');
@@ -1182,11 +1182,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1217,7 +1217,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ha,'visible','off');
 set(handles.hb,'visible','off')
 set(handles.texth, 'visible', 'off');
@@ -1237,11 +1237,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1271,7 +1271,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.na,'visible','off');
 set(handles.nb,'visible','off')
 set(handles.textn, 'visible', 'off');
@@ -1291,11 +1291,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1324,7 +1324,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ta,'visible','off');
 set(handles.tb,'visible','off')
 set(handles.textt, 'visible', 'off');
@@ -1344,11 +1344,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1379,7 +1379,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.za,'visible','off');
 set(handles.zb,'visible','off')
 set(handles.textz, 'visible', 'off');
@@ -1399,11 +1399,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1433,7 +1433,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.afa,'visible','off');
 set(handles.afb,'visible','off')
 set(handles.textaf, 'visible', 'off');
@@ -1453,11 +1453,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1488,7 +1488,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ia,'visible','off');
 set(handles.ib,'visible','off')
 set(handles.texti, 'visible', 'off');
@@ -1508,11 +1508,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1542,7 +1542,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.oa,'visible','off');
 set(handles.ob,'visible','off')
 set(handles.texto, 'visible', 'off');
@@ -1562,11 +1562,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1596,7 +1596,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ua,'visible','off');
 set(handles.ub,'visible','off')
 set(handles.textu, 'visible', 'off');
@@ -1616,11 +1616,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1651,7 +1651,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.aaa,'visible','off');
 set(handles.aab,'visible','off')
 set(handles.textaa, 'visible', 'off');
@@ -1671,11 +1671,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1715,7 +1715,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ja,'visible','off');
 set(handles.jb,'visible','off')
 set(handles.textj, 'visible', 'off');
@@ -1735,11 +1735,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1770,7 +1770,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.pa,'visible','off');
 set(handles.pb,'visible','off')
 set(handles.textp, 'visible', 'off');
@@ -1790,11 +1790,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1824,7 +1824,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.va,'visible','off');
 set(handles.vb,'visible','off')
 set(handles.textv, 'visible', 'off');
@@ -1844,11 +1844,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1879,7 +1879,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aba,'visible','off');
 set(handles.abb,'visible','off')
 set(handles.textab, 'visible', 'off');
@@ -1899,11 +1899,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1934,7 +1934,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aha,'visible','off');
 set(handles.ahb,'visible','off')
 set(handles.textah, 'visible', 'off');
@@ -1954,11 +1954,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -1989,7 +1989,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ka,'visible','off');
 set(handles.kb,'visible','off')
 set(handles.textk, 'visible', 'off');
@@ -2009,11 +2009,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2044,7 +2044,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.qa,'visible','off');
 set(handles.qb,'visible','off')
 set(handles.textq, 'visible', 'off');
@@ -2064,11 +2064,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2098,7 +2098,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.wa,'visible','off');
 set(handles.wb,'visible','off')
 set(handles.textw, 'visible', 'off');
@@ -2118,11 +2118,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2153,7 +2153,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aca,'visible','off');
 set(handles.acb,'visible','off')
 set(handles.textac, 'visible', 'off');
@@ -2173,11 +2173,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth - 30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2226,7 +2226,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ra,'visible','off');
 set(handles.rb,'visible','off')
 set(handles.textr, 'visible', 'off');
@@ -2246,11 +2246,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2292,7 +2292,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ada,'visible','off');
 set(handles.adb,'visible','off')
 set(handles.textad, 'visible', 'off');
@@ -2312,11 +2312,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2358,7 +2358,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ha,'visible','off');
 set(handles.hb,'visible','off')
 set(handles.texth, 'visible', 'off');
@@ -2378,11 +2378,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2412,7 +2412,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.na,'visible','off');
 set(handles.nb,'visible','off')
 set(handles.textn, 'visible', 'off');
@@ -2432,11 +2432,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2466,7 +2466,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.tb,'visible','off');
 set(handles.ta,'visible','off')
 set(handles.textg, 'visible', 'off');
@@ -2486,11 +2486,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2519,7 +2519,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.za,'visible','off');
 set(handles.zb,'visible','off')
 set(handles.textz, 'visible', 'off');
@@ -2539,11 +2539,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2582,7 +2582,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ia,'visible','off');
 set(handles.ib,'visible','off')
 set(handles.texti, 'visible', 'off');
@@ -2602,11 +2602,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2636,7 +2636,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.oa,'visible','off');
 set(handles.ob,'visible','off')
 set(handles.texto, 'visible', 'off');
@@ -2656,11 +2656,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2692,7 +2692,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.ua,'visible','off');
 set(handles.ub,'visible','off')
 set(handles.textu, 'visible', 'off');
@@ -2712,11 +2712,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2748,7 +2748,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aab,'visible','off');
 set(handles.aaa,'visible','off')
 set(handles.textaa, 'visible', 'off');
@@ -2768,11 +2768,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2804,7 +2804,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aga,'visible','off');
 set(handles.agb,'visible','off')
 set(handles.textag, 'visible', 'off');
@@ -2824,11 +2824,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2869,7 +2869,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.aba,'visible','off');
 set(handles.abb,'visible','off')
 set(handles.textab, 'visible', 'off');
@@ -2889,11 +2889,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2924,7 +2924,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.va,'visible','off');
 set(handles.vb,'visible','off')
 set(handles.textv, 'visible', 'off');
@@ -2944,11 +2944,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -2979,7 +2979,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.pa,'visible','off');
 set(handles.pb,'visible','off')
 set(handles.textp, 'visible', 'off');
@@ -2999,11 +2999,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3033,7 +3033,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ja,'visible','off');
 set(handles.jb,'visible','off')
 set(handles.textj, 'visible', 'off');
@@ -3053,11 +3053,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3087,7 +3087,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.ka,'visible','off');
 set(handles.kb,'visible','off')
 set(handles.textk, 'visible', 'off');
@@ -3107,11 +3107,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
 
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
 
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3141,7 +3141,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.qa,'visible','off');
 set(handles.qb,'visible','off')
 set(handles.textq, 'visible', 'off');
@@ -3161,11 +3161,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3196,7 +3196,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.wa,'visible','off');
 set(handles.wb,'visible','off')
 set(handles.textw, 'visible', 'off');
@@ -3216,11 +3216,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3252,7 +3252,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.aca,'visible','off');
 set(handles.acb,'visible','off')
 set(handles.textac, 'visible', 'off');
@@ -3272,11 +3272,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3307,7 +3307,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-playerhealth = playerhealth + 20
+playerhealth = playerhealth + 30
 set(handles.aia,'visible','off');
 set(handles.aib,'visible','off')
 set(handles.textai, 'visible', 'off');
@@ -3327,11 +3327,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3383,7 +3383,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.xa,'visible','off');
 set(handles.xb,'visible','off')
 set(handles.textx, 'visible', 'off');
@@ -3403,11 +3403,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
@@ -3447,7 +3447,7 @@ set(handles.playerwins,'visible','off');
 global zombiehealth
 global playerhealth
 global playerstrength
-zombiehealth = zombiehealth + 20
+zombiehealth = zombiehealth + 30
 set(handles.la,'visible','off');
 set(handles.lb,'visible','off')
 set(handles.textl, 'visible', 'off');
@@ -3467,11 +3467,11 @@ set(handles.playerroll, 'String', playeroutcome);
 set(handles.zombieroll, 'String', zombieoutcome);
  
 if playeroutcome > zombieoutcome
-    zombiehealth = zombiehealth - 20
+    zombiehealth = zombiehealth - 30
     set(handles.playerwins,'visible','on');
  
 elseif playeroutcome < zombieoutcome
-    playerhealth = playerhealth -20
+    playerhealth = playerhealth -30
 set(handles.zombiewins,'visible','on');
 elseif playeroutcome == zombieoutcome
     set(handles.equalattack, 'visible' , 'on');
