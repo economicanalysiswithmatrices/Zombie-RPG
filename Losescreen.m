@@ -1,4 +1,5 @@
 function varargout = Losescreen(varargin)
+clear sound
 % LOSESCREEN MATLAB code for Losescreen.fig
 %      LOSESCREEN, by itself, creates a new LOSESCREEN or raises the existing
 %      singleton*.

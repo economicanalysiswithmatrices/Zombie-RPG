@@ -46,6 +46,7 @@ end
 
 % --- Executes just before Level2 is made visible.
 function Level2_OpeningFcn(hObject, eventdata, handles, varargin)
+clear sound
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure1
 % eventdata  reserved - to be defined in a future version of MATLAB

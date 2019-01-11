@@ -1,4 +1,5 @@
 function varargout = Winscreen2(varargin)
+clear sound
 % WINSCREEN2 MATLAB code for Winscreen2.fig
 %      WINSCREEN2, by itself, creates a new WINSCREEN2 or raises the existing
 %      singleton*.
